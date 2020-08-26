@@ -23,9 +23,9 @@ h4{
 
 .links{
 	position:fixed;
-	text-align: left;
+	text-align: right;
 	text-decoration: none;
-	display: block
+	display: block;
 }
 
 a:link, a:visited{
