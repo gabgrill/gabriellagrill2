@@ -44,10 +44,33 @@ a:hover, a:active{
 }
 
 .image_wrapper{
-max-height: 629px;
+max-height: 640px;
 padding: 50px;
 box-sizing: border-box;
 display: block;
 text-align: center;
 margin: auto;
+}
+
+.triangle-left {
+	width: 0;
+	height: 0;
+	border-top: 10px solid transparent;
+	border-right: 20px solid #98c282;
+	border-bottom: 10px solid transparent;
+	display: inline-block;
+	position: fixed;
+	margin: 1rem;
+}
+
+.triangle-right {
+	width: 0;
+	height: 0;
+	right: 0;
+	border-top: 10px solid transparent;
+	border-left: 20px solid #98c282;
+	border-bottom: 10px solid transparent;
+	display: inline-block;
+	position: fixed;
+	margin: 1rem;
 }
