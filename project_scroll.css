@@ -33,6 +33,7 @@ a:hover, a:active{
   	right: 0;
   	text-align: center;
 	color:#000000;
+	background-color: #6b885c6b;
 	border-radius: 8px;
 	border-bottom-right-radius: 0;
 	border-top-right-radius: 0;
@@ -51,12 +52,3 @@ a:hover, a:active{
   	margin-bottom: 3rem;
   	margin-top: 1rem;
 }
-
-
-#alive_on_wings{
-		background-color: #c58aa4;
-	}
-
-#cairn{
-	background-color: #169823;	
-	}
