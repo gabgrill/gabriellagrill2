@@ -44,11 +44,10 @@ a:hover, a:active{
 }
 
 .image_wrapper{
-	position: relative;
-	z-index: 1;
-  	max-height: 600px;
-  	margin-left: 50%;
-  	transform: translate(-50%,0);
-  	margin-bottom: 3rem;
-  	margin-top: 1rem;
+max-height: 629px;
+padding: 50px;
+box-sizing: border-box;
+display: block;
+text-align: center;
+margin: auto;
 }
