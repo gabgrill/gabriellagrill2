@@ -1,0 +1,132 @@
+body{
+	background-color: #ffffff;
+}
+
+a:link, a:visited{
+	color: #000000;
+	text-decoration: none;
+	}
+a:hover, a:active{
+	color: #0047ff7d;
+	text-decoration: none;
+	}
+
+.home_nav{
+	height: 2rem;
+	width: 2rem;
+	position:fixed;
+	font-size: 22px;
+	text-align: center;
+	display: inline-block;
+	bottom: 0;
+  	left: 0;
+  	margin: 2rem;
+  	background-color: #e5ffc6;
+  	border: 1px solid #0047ff7d;
+  	box-sizing: border-box;
+	z-index: 100;
+}
+
+.triangle-left {
+	width: 0;
+	height: 0;
+	border-top: 10px solid transparent;
+	border-right: 19px solid #ff002bba;
+	border-bottom: 10px solid transparent;
+	display: inline-block;
+	position: fixed;
+	margin: calc(2rem + 2px);
+	z-index: 10;
+}
+
+.triangle-left-behind {
+	width: 0;
+	height: 0;
+	border-top: 12px solid transparent;
+	border-right: 22px solid #0047ff7d;
+	border-bottom: 12px solid transparent;
+	display: inline-block;
+	position: fixed;
+	margin: 2rem;
+	z-index: 1;
+}
+.triangle-right {
+	width: 0;
+	height: 0;
+	right: 0;
+	border-top: 10px solid transparent;
+	border-left: 19px solid #ffb900eb;
+	border-bottom: 10px solid transparent;
+	display: inline-block;
+	position: fixed;
+	margin: calc(2rem + 2px);
+	z-index: 10;
+}
+
+.triangle-right-behind {
+	width: 0;
+	height: 0;
+	right: 0;
+	border-top: 12px solid transparent;
+	border-left: 22px solid #0047ff7d;
+	border-bottom: 12px solid transparent;
+	display: inline-block;
+	position: fixed;
+	margin: 2rem;
+	z-index: 1;
+}
+
+.checkbox_container{
+  display: inline-block;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  margin: 2rem;
+  z-index: 10;
+}
+
+.checkbox_container input,
+.checkbox_image{
+  color: #000000;
+  background-color: #fff0f5;
+}
+
+.checkbox_container input{
+  outline: 1px solid #0047ff7d;
+  appearance: none;
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+.checkbox_container input:checked{
+  background-color: #000;
+}
+
+.checkbox_image{
+  opacity: 0;
+  padding: 0.5rem;
+  position: absolute;
+  bottom: 0;
+  width: 9rem;
+  right: 0rem;
+  bottom: 2.5rem;
+  text-align: center;
+  font-family: PT Serif;
+  font-size: 18px;
+  border: 1px solid #0047ff7d;
+}
+
+.checkbox_container input:checked + .checkbox_image{
+  opacity: 1;
+}
+
+.checkbox_label{
+	font-family: PT Serif;
+	font-size: 14px;
+	z-index: 1000;
+	position: absolute;
+	pointer-events: none;
+	top: 50%;
+	right: 50%;
+	transform: translate(40%, -60%);
+}
