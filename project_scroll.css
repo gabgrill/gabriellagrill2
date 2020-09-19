@@ -112,6 +112,7 @@ margin-bottom: 2rem;
 .checkbox_image{
   color: #000000;
   background-color: #fff0f5;
+  cursor: pointer;
 }
 
 .checkbox_container input{
@@ -119,7 +120,6 @@ margin-bottom: 2rem;
   appearance: none;
   width: 1.5rem;
   height: 1.5rem;
-  cursor: pointer;
 }
 
 .checkbox_container input:checked{
@@ -138,6 +138,7 @@ margin-bottom: 2rem;
   font-family: PT Serif;
   font-size: 18px;
   border: 1px solid #0047ff7d;
+  pointer-events: none;
 }
 
 .checkbox_container input:checked + .checkbox_image{
