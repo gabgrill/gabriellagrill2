@@ -1,5 +1,5 @@
 body{
-	background-color: #ffffff;
+	background-color: #d1d1d1;
 }
 
 a:link, a:visited{
@@ -22,7 +22,7 @@ a:hover, a:active{
 	bottom: 0;
   	left: 0;
   	margin: 2rem;
-  	background-color: #e5ffc6;
+  	background-color: #d4cede;
   	border: 1px solid #0047ff7d;
 	box-sizing: border-box;
 	z-index: 100;
@@ -54,7 +54,7 @@ margin-bottom: 2rem;
 	width: 0;
 	height: 0;
 	border-top: 10px solid transparent;
-	border-right: 19px solid #ff002bba;
+	border-right: 19px solid #d4cede;
 	border-bottom: 10px solid transparent;
 	display: inline-block;
 	position: fixed;
@@ -78,7 +78,7 @@ margin-bottom: 2rem;
 	height: 0;
 	right: 0;
 	border-top: 10px solid transparent;
-	border-left: 19px solid #ffb900eb;
+	border-left: 19px solid #d4cede;
 	border-bottom: 10px solid transparent;
 	display: inline-block;
 	position: fixed;
@@ -111,7 +111,7 @@ margin-bottom: 2rem;
 .checkbox_container input,
 .checkbox_image{
   color: #000000;
-  background-color: #fff0f5;
+  background-color: #d4cede;
   cursor: pointer;
 }
 
