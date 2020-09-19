@@ -1,5 +1,5 @@
 body{
-	background-color: #ffffff;
+	background-color: #d1d1d1;
 }
 
 #slideshow_container{
@@ -18,6 +18,7 @@ body{
   max-width: calc(100% - 6rem);
   max-height: calc(100% - 6rem);
   opacity: 0;
+  z-index:1;
 }
 
 .slide_radio_button:checked + .slide_image{
@@ -36,7 +37,7 @@ body{
 }
 
 .slide_radio_button:checked{
-  background-color: #ac9acc;
+  background-color: #000000;
 }
 
 .slide_radio_button{
@@ -86,6 +87,20 @@ body{
   	background-color: #d4cede;
   	border:1px solid #0047ff7d;
   	padding:.5vh;
+  	max-width: 30rem;
+  	z-index: 10;
+}
+
+.img_link{
+	opacity: 1;
+  	position: absolute;
+  	background-color: transparent;
+  	top: 50%;
+  	left: 50%;
+  	transform: translate(-50%, -50%);
+  	width: calc(100% - 32rem);
+  	height: calc(100% - 6rem);
+  	z-index: 100;
 }
 
 a:link, a:visited{
@@ -101,7 +116,7 @@ a:hover, a:active{
 	width: 0;
 	height: 0;
 	border-top: 10px solid transparent;
-	border-right: 19px solid #ff002bba;
+	border-right: 19px solid #d4cede;
 	border-bottom: 10px solid transparent;
 	display: inline-block;
 	position: fixed;
@@ -125,7 +140,7 @@ a:hover, a:active{
 	height: 0;
 	right: 0;
 	border-top: 10px solid transparent;
-	border-left: 19px solid #ffb900eb;
+	border-left: 19px solid #d4cede;
 	border-bottom: 10px solid transparent;
 	display: inline-block;
 	position: fixed;
@@ -157,7 +172,7 @@ a:hover, a:active{
 	bottom: 0;
   	left: 0;
   	margin: 2rem;
-  	background-color: #e5ffc6;
+  	background-color: #d4cede;
   	border: 1px solid #0047ff7d;
 	box-sizing: border-box;
 	z-index: 100;
@@ -177,7 +192,7 @@ a:hover, a:active{
 .checkbox_container input,
 .checkbox_image{
   color: #000000;
-  background-color: #fff0f5;
+  background-color: #d4cede;
   cursor: pointer;
 }
 
