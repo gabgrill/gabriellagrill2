@@ -12,12 +12,13 @@ a:hover, a:active{
 	}
 
 .home_nav{
-	height: 2rem;
-	width: 2rem;
+	height: 1.5rem;
+	width: 1.5rem;
 	position:fixed;
 	font-size: 22px;
+	line-height: 1.33rem;
 	text-align: center;
-	display: inline-block;
+	display: block;
 	bottom: 0;
   	left: 0;
   	margin: 2rem;
@@ -114,7 +115,7 @@ margin-bottom: 2rem;
 }
 
 .checkbox_container input{
-  outline: 1px solid #0047ff7d;
+  border: 1px solid #0047ff7d;
   appearance: none;
   width: 1.5rem;
   height: 1.5rem;
