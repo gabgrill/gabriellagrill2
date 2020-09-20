@@ -1,5 +1,5 @@
 body{
-	background-color: #d1d1d1;
+	background-color: #c7adc8;
 	margin: 0;
 }
 
@@ -11,6 +11,19 @@ a:hover, a:active{
 	color: #ffffff;
 	text-decoration: none;
 	}
+
+.image_container{
+	background-color: #d1d1d1;
+	position: fixed;
+	display: block;
+	right: 0;
+	top: 0;
+	height: 75vh;
+	width:130vh;
+	margin: 5rem;
+	margin-left: 36rem; 
+	z-index: 1000;
+}
 
 .image{
 	position:absolute;
@@ -50,35 +63,9 @@ h1{
 	z-index: 102;
 }
 
-.toolbar_right{
-	position:fixed;
-	display: block;
-	top: 0;
-  	right: 0;
-  	width: 5rem;
-  	padding: 1rem;
-  	height: 100%;
-  	background-color: #c7adc8;
-	box-sizing: border-box;
-	z-index: 10;
-}
-
-.toolbar_left{
-	position: fixed;
-	display: block;
-	left:0;
-	top: 0;
-	width:5rem;
-	height: 100%;
-	padding: 1rem;
-	background-color: #c7adc8;
-	z-index: 10;
-	box-sizing: border-box;
-}
-
 .about_footer{
 	position: fixed;
-	display: block;
+	display: inline block;
 	bottom: 0;
 	width:100%;
 	height: 5rem;
@@ -99,12 +86,12 @@ h1{
 }
 
 #slideshow_container{
-  position: relative;
+  position: fixed;
   width: 100%;
   height: 100%;
-  margin-bottom: 1rem;
+  top:0;
   outline: none;
-  z-index: 100;
+  z-index: 1000;
 }
 
 .slide_menu{
@@ -113,13 +100,11 @@ h1{
   left: 0;
   background-color: #dec4e6;
   text-align: left;
-  margin-left: 5rem;
-  margin-bottom: 5rem;
-  margin-top: 4rem;
-  height:30rem;
-  width: 20rem;
+  margin:5rem;
+  height: 75vh;
+  width:50vh;
   opacity: 0;
-  z-index:10;
+  z-index:1000;
   pointer-events: none;
 }
 
