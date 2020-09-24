@@ -10,3 +10,18 @@ h1{
 	text-align: center;
 	color: #ffffff;
 }
+
+.cv_link{
+	appearance: none;
+	text-align: center;
+	font-size: 16;
+}
+
+a:link, a:visited{
+	color: #cd98dd;
+	text-decoration: none;
+	}
+a:hover, a:active{
+	color: #8b44a1;
+	text-decoration: none;
+	}
