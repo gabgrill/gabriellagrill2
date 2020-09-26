@@ -27,12 +27,11 @@ a:hover, a:active{
 
 .image{
 	position: fixed;
-	top: 7rem;
-	bottom: 7rem;
-	right: 7rem;
-	left: 38rem;
-	max-height: calc(100% - 14rem)
-	max-width: calc(69% - 14rem)
+	top: 5rem;
+	bottom: 5rem;
+	right: 5rem;
+	max-height: calc(100% - 5rem)
+	max-width: calc(69% - 5rem)
 	opacity:0;
 	z-index: 1000;
 }
