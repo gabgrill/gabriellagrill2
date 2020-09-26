@@ -30,6 +30,7 @@ a:hover, a:active{
 	top: 7rem;
 	bottom: 7rem;
 	right: 7rem;
+	left: 38rem;
 	max-height: calc(100% - 14rem)
 	max-width: calc(69% - 14rem)
 	opacity:0;
