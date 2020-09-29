@@ -58,6 +58,7 @@ h1{
 	padding: 3rem;
 	padding-top: 2rem;
 	padding-bottom: 0;
+	line-height: .5rem;
 }
 
 .site_title{
@@ -127,6 +128,8 @@ h1{
 	line-height: 1rem;
 	padding: 3rem;
 	padding-top: 0;
+	padding-bottom: .75rem;
+	margin-top: 0;
 }
 
 .little_slide_menu_text{
