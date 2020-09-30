@@ -66,15 +66,17 @@ h1{
 	font-family: PT Serif;
 	position: fixed;
 	padding: 1rem;
-	top: 0;
-  	left: 0;
+	padding-left: 0;
+	padding-bottom: 0;
+	top: 1rem;
+  	left: 5rem;
   	width: 100%;
-  	text-align: center;
+  	text-align: left;
 	color:#000000;
 	background-color: #c7adc8;
-	display: block;
+	display: inline-block;
 	box-sizing: border-box;
-	z-index: 102;
+	z-index: 1;
 }
 
 .about_footer{
@@ -94,9 +96,10 @@ h1{
 	position: absolute;
 	font-size: 18px;
 	font-family: PT Serif;
-	left: 50%;
-	transform: translate(-50%, 50%);
-	vertical-align: middle;
+	right: 4rem;
+	top:2.5rem;
+	padding: 1rem;
+	z-index: 1000;
 }
 
 #slideshow_container{
