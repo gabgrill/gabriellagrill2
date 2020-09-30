@@ -44,7 +44,7 @@ a:hover, a:active{
 	right: 5rem;
 	left: 31%;
 	height: calc(100% - 5rem);
-	max-width: calc(69% - 5rem);
+	width: calc(69% - 5rem);
 	object-fit: cover;
 	opacity:0;
 	z-index: 1000;
