@@ -15,7 +15,6 @@ a:hover, a:active{
 	}
 
 .image_container{
-	background-color: #d1d1d1;
 	position: fixed;
 	display: inline-block;
 	right: 5rem;
@@ -30,9 +29,10 @@ a:hover, a:active{
 	top: 5rem;
 	bottom: 5rem;
 	right: 5rem;
-	left: calc(31%);
-	max-height: calc(100% - 5rem);
+	left: 31%;
+	height: calc(100% - 5rem);
 	max-width: calc(69% - 5rem);
+	object-fit: cover;
 	opacity:1;
 	z-index: 101;
 }
@@ -42,9 +42,10 @@ a:hover, a:active{
 	top: 5rem;
 	bottom: 5rem;
 	right: 5rem;
-	left: calc(31%);
-	max-height: calc(100% - 5rem);
+	left: 31%;
+	height: calc(100% - 5rem);
 	max-width: calc(69% - 5rem);
+	object-fit: cover;
 	opacity:0;
 	z-index: 1000;
 }
