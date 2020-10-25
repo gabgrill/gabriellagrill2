@@ -27,6 +27,7 @@ body{
 
 .slide_radio_button{
   appearance: none;
+  -webkit-appearance: none;
   width: 1.2rem;
   height: 1.2rem;
   border-radius: 50%;
@@ -200,6 +201,7 @@ a:hover, a:active{
 .checkbox_container input{
   border: 1px solid #0047ff7d;
   appearance: none;
+  -webkit-appearance: none;
   width: 1.5rem;
   height: 1.5rem;
 }
@@ -258,6 +260,7 @@ a:hover, a:active{
 .description_checkbox_container input{
   border: 1px solid #0047ff7d;
   appearance: none;
+  -webkit-appearance: none;
   width: 1.5rem;
   height: 1.5rem;
 }
