@@ -185,3 +185,9 @@ h1{
 .slide_radio_button:nth-of-type(4){
   transform: translate(0, 600%);
 }
+
+@media(max-width: 1092px){
+	html{
+		font-size: 22px;
+	}
+}
