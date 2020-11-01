@@ -216,6 +216,7 @@ h1{
   width: calc(31% - 5rem);
   opacity: 0;
   z-index:1000;
+  pointer-events: auto;
 }
 .slide_menu_text h1{
 	display: none;
