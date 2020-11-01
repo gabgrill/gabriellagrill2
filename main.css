@@ -212,6 +212,8 @@ h1{
   pointer-events: auto;
   width: 100%;
   background-color: #c7adc8;
+  margin: .5rem;
+  opacity: 1;
 }
 .slide_menu_text h1{
 	display: none;
