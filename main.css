@@ -208,15 +208,10 @@ h1{
 }
 .slide_menu{
   position: static;
-  top: 5rem;
-  left: 5rem;
-  bottom: 5rem;
-  background-color: #dec4e6;
-  text-align: left;
-  width: calc(31% - 5rem);
-  opacity: 0;
-  z-index:1000;
+  display: block;
   pointer-events: auto;
+  width: 100%;
+  background-color: #c7adc8;
 }
 .slide_menu_text h1{
 	display: none;
@@ -299,4 +294,9 @@ h1{
 	@media (max-width: 416px){
 	html{
 		font-size: 10px;
+	}
+
+		@media (max-width: 390px){
+	html{
+		font-size: 8px;
 	}
