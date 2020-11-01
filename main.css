@@ -246,6 +246,10 @@ h1{
 	opacity:1;
 	z-index: 1000;
 }
+.image_container{
+	z-index: 0;
+	display: none;
+}
 .slide_menu_item_container{
 	position: relative;
 	padding-bottom: 2rem;
