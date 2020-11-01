@@ -232,6 +232,9 @@ h1{
 	left: 50%;
 	transform: translate(-50%, 0);
 	bottom: 0;
+	padding-top: 0;
+	padding-bottom: 0;
+	line-height: auto;
 }
 .still_img{
 	display: none;
@@ -278,12 +281,22 @@ h1{
 		font-size: 16px;
 	}
 	
+@media (max-width: 680px){
+	html{
+		font-size: 14px;
+	}
+
 	@media (max-width: 530px){
 	html{
 		font-size: 12px;
 	}
 
-	@media (max-width: 384px){
+	@media (max-width: 471px){
 	html{
 		font-size: 11px;
+	}
+
+	@media (max-width: 416px){
+	html{
+		font-size: 10px;
 	}
