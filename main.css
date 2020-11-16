@@ -50,7 +50,7 @@ html{
 	height: calc(100% - 5rem);
 	width: calc(69% - 5rem);
 	object-fit: cover;
-	opacity:0;
+	opacity: 0;
 	z-index: 1000;
 }
 
